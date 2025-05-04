@@ -2,6 +2,7 @@ body{
     font-family : Cormorant, serif;
 }
 
+/* Navigation bar */
 h1{
     display : inline-block ;
     font-weight: 400;
@@ -35,10 +36,16 @@ a.active{
     margin: 30px;
 }
 
+
+/* Photo Section */
 .card img{
     width : 100% ;
     height: 500px;
-    background-size: cover;
+    object-fit: cover ;
+}
+
+.card img:hover{
+    opacity : 0.92 ;
 }
 
 .card{
@@ -47,9 +54,42 @@ a.active{
     margin : 20px ;
     box-sizing: border-box;
     padding : 20px ;
-    border: 1px solid black ;
 }
 
 .card h2{
     display : inline-block ;
+    font-weight: 300 ;
+    margin : 6px 0 0 0 ;
+}
+
+.gallery{
+    padding : 16px ;
+}
+
+
+/* About and contact */
+.about{
+    width : 40% ;
+    min-width: 600px;
+    margin : 100px 0 100px 200px ;
+}
+
+.about h3{
+    font-size : 40px ;
+    font-weight: 300 ;
+}
+
+.contact{
+    margin-top: 50px ;
+}
+
+.contact p{
+    margin : 0 ;
+    font-size: 20px;
+}
+
+.lwt{
+    display : inline-block ;
+    border-bottom : 1px solid black ;
+    margin-top : 0 ;
 }
