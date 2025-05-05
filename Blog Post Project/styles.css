@@ -1,0 +1,29 @@
+body{
+    font-family : "Mukta", sans-serif ;
+    font-size: 18px ;
+    margin : 0 ;
+    padding : 0 ;
+    letter-spacing: 0.5px ;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family : "Bitter", serif ;
+    font-weight: 600 ;
+}
+.content{
+    max-width : 900px ;
+    margin : 0 auto ;
+    padding: 32px ;
+}
+
+.info{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Bitter", serif;
+    font-weight: bold ;
+    font-size: 14px;
+}
+
+span{
+    color : rgb(207, 136, 4) ;
+}
