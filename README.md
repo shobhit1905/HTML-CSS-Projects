@@ -11,7 +11,7 @@ The project was built focusing on foundational web development concepts, specifi
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-# Project-2 : Mini Blog Post Projec
+# Project-2 : Mini Blog Post Project
 This project is a small, static blog post built using HTML and CSS. It focuses on showcasing fundamental web development skills, including semantic HTML structure and CSS styling for typography and layout.
 
 **Key Features:**
