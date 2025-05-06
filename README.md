@@ -24,11 +24,4 @@ This project is a small, static blog post built using HTML and CSS. It focuses o
     * Styling for specific elements like blockquotes and the footer navigation.
 * **Typography Exploration:** The project serves as a practical example of how different CSS units (`px`, `em`, `rem`) can be used for font sizing.
 
-**Potential Future Enhancements:**
-
-* Responsiveness for different screen sizes (tablets, mobiles).
-* Improved accessibility features (ARIA roles, color contrast checks).
-* More advanced layout techniques (Flexbox or Grid).
-* Use of CSS variables for better maintainability.
-
 This project provides a foundational understanding of creating a simple web page with styled content.
