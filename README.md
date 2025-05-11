@@ -30,7 +30,7 @@ This project provides a foundational understanding of creating a simple web page
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-# Hazel's Professional Portfolio & CV (HTML/CSS)
+# Project-3 : Hazel's  Portfolio & CV (HTML/CSS)
 
 This project is a small CV Project built using HTML and CSS. It focuses on showcasing fundamental web development skills, including semantic HTML structure and CSS styling for typography and layout.The website showcases her expertise as a Scientist and Speaker, highlighting her mission, key specializations, tech blog, and previous speaking engagement
 
