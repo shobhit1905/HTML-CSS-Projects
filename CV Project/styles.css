@@ -112,7 +112,7 @@ nav p{
 }
 
 .blog-text{
-    font-size : 1.2rem ;;
+    font-size : 1.2rem ;
 }
 
 .blog-posts .blog-date{
@@ -123,7 +123,61 @@ nav p{
 
 /* event section */
 
-.events{
-    background-color: #fad0b0;
-    padding: 2% 8%; ;
+.events-section{
+    background-color: #f7e7db;
+    padding : 64px 0 ;
+    display: inline-block;
+    width : 100% ;
+}
+
+.events-content{
+    padding : 0 8% ;
+}
+
+.events-card{
+    width : 50% ;
+    float: right;
+    margin-top : 24px;
+}
+
+.events-card p{
+    margin : 8px 0 ;
+}
+
+.event-title{
+    font-size : 1.6rem ;
+    font-weight: 400;
+}
+
+.event-location{
+    font-size : 1.2rem ;
+}
+
+.events-card .event-date{
+    font-size : 1rem ;
+    color : gray ;
+    margin-bottom : 30px ;
+}
+
+/* footer */
+
+footer{
+    background-color : black ;
+    color : azure ;
+    padding : 50px;
+}
+
+.footer-content{
+    text-align : center ;
+}
+
+footer img{
+    width : 2rem ;
+    height : 2rem ;
+    margin : 0 8px ;
+}
+
+footer p{
+    margin-top : 0;
+    margin-top : 5px ;
 }
