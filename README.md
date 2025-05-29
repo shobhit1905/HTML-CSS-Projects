@@ -27,6 +27,7 @@ This project is a small, static blog post built using HTML and CSS. It focuses o
 
 This project provides a foundational understanding of creating a simple web page with styled content.
 
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -47,3 +48,22 @@ This project is a small CV Project built using HTML and CSS. It focuses on showc
 
 * **HTML:** Provides the structural foundation and content of the website.
 * **CSS:** Styles the visual presentation, layout, and overall design.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Project-4 : Cost Estimator (Design Project)
+
+This project showcases a responsive and visually appealing cost estimator web interface, developed purely with HTML and CSS. The primary goal of this project was to deepen my understanding and practical application of CSS Flexbox for creating modern and adaptable web layouts.
+
+**Key Features:**
+
+* **Flexbox-driven Layout:** The entire structure, from the main container to individual components like the tabs, toggle switch, and slider, is meticulously crafted using CSS Flexbox, demonstrating its power in achieving flexible and organized content distribution.
+* **Tiered Pricing Section:** Displays different pricing plans ("free", "team", "professional", "enterprise") using Flexbox to ensure even spacing and alignment of the tab elements.
+* **Platform Toggle:** A clear "Mobile" and "Web" toggle switch, designed with Flexbox for centered content and proper alignment of text and visual indicators.
+* **Monthly Sessions Card:** Presents session information in a well-structured card format, utilizing Flexbox for internal content arrangement.
+* **Interactive Slider Component:** Features a visually engaging slider for adjusting session numbers, with the bar, progress, point, and scale elements precisely positioned and sized using Flexbox principles.
+* **Clean and Modern Aesthetic:** Adheres to a clean design with a distinct purple and white color scheme and the 'Open Sans' font, enhancing user readability and visual appeal.
+* **Responsive Design Principles:** While currently a static design, the underlying Flexbox implementation lays a strong foundation for future responsiveness across various screen sizes.
+
+This project serves as a practical exercise in mastering CSS for layout and styling, specifically focusing on the capabilities of Flexbox to build robust and scalable front-end designs. Currently, it is a design-only project with focus on a single tier pricing without any JavaScript functionalities.
