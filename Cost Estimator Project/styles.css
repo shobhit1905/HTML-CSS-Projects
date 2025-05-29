@@ -1,0 +1,259 @@
+body{
+    background-color: rgb(233, 223, 255);
+    font-family : 'Open Sans', sans-serif;
+    display : flex ;
+    flex-direction : column ;
+    justify-content: center;
+    align-items: center;
+    padding : 32px ;
+    color : rgb(44, 44, 44);
+}
+
+h1{
+    color : rgb(83, 49, 156) ;
+}
+
+.container{
+    background-color: white ;
+    width : 100% ;
+    max-width : 900px ;
+    display : flex ;
+    flex-direction : column ;
+    align-items : center ;
+    justify-content: center;
+    border-radius: 20px ;
+    padding : 0 64px 64px 64px ;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.tabs{
+    display : flex ;
+    text-transform: uppercase;
+    width : 100% ;
+    justify-content: space-around;
+    font-weight: bold ;
+    color : rgb(200, 175, 255) ;
+    margin : 0 0 32px 0 ;
+    padding : 16px ;
+}
+
+.tabs p{
+    padding : 8px ;
+}
+
+.tabs p:hover{
+    cursor: pointer ;
+    color : rgb(83, 49, 156) ;
+}
+
+.tabs p.active{
+    color : rgb(83, 49, 156) ;
+    position : relative ;
+}
+
+.line{
+    height : 3px ;
+    background-color: rgb(231, 231, 231) ;
+    width: 100%;
+    position : absolute ;
+    top : 83px
+}
+
+.tabs .active::before{
+    content : "" ;
+    width : 200% ;
+    height : 5px ;
+    background-color: rgb(83, 49, 156);
+    position : absolute ;
+    top : 50px ;
+    left : -50% ;
+    z-index : 2 ;
+    border-radius: 10px ;
+}
+
+.toggle-wrapper{
+    display : flex ;
+}
+
+.toggle-wrapper img{
+    height : 40px ;
+    margin : 0 16px ;
+}
+
+.toggle{
+    background-color: rgb(83, 49, 156);
+    height : 32px ;
+    width : 160px ;
+    box-sizing: border-box;
+    border-radius: 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 0 4px 0 16px ;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.toggle span:first-of-type{
+    color : white ;
+}
+
+.toggle span:last-of-type{
+    background-color : white ;
+    color : rgb(83, 49, 156) ;
+    padding: 2px 16px ;
+    border-radius: 20px ;
+}
+
+.sessions-card{
+    background-color: rgb(236, 228, 248) ;
+    text-align: center;
+    padding: 32px ;
+    width : 50% ;
+    text-transform: uppercase;
+    margin : 16px 0 ;
+    border-radius: 10px ;
+}
+
+.sessions-card p{
+    color : rgb(44, 44, 44) ;
+    font-weight: bold ;
+    font-size: 22px ;
+    margin-bottom : 0 ;
+}
+
+.sessions-card .number{
+    color : rgb(83, 49, 156) ;
+    font-size: 48px ;
+    font-weight: bold ;
+    margin : 0 ;
+}
+
+.description{
+    line-height : 32px ;
+    margin : 16px 0 32px 0 ;
+}
+
+.slider{
+    width : 100% ;
+}
+.slider .bar{
+    width : 100% ;
+    height : 16px ;
+    background-color: rgb(248, 248, 248) ;
+    border : 2px solid rgb(210, 210, 210) ;
+    border-top-left-radius: 30px ;
+    border-bottom-left-radius: 30px ;
+    border-top-right-radius: 30px ;
+    border-bottom-right-radius: 30px ;
+    position : relative ;
+}
+.slider .progress{
+    width : 31% ;
+    height : 20px ;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(53,10,74,1) 36%, rgba(83,49,156,1) 100%);
+    border-top-left-radius: 30px ;
+    border-bottom-left-radius: 30px ;
+    position : absolute ;
+    top : -2px ;
+    left : -2px ;
+}
+
+.slider .point{
+    height : 28px ;
+    width : 28px ;
+    background-color: rgb(83, 49, 156);
+    border-radius: 50% ;
+    position: absolute;
+    top : -7px ;
+    left : 29% ;
+    border : 2px solid white ;
+    transition: 1.3s transform ease;
+}
+
+.slider .point:hover{
+    cursor: pointer ;
+    transform: scale(1.2) ;
+}
+
+.scale{
+    width : 100% ;
+}
+
+.slider .scale ul{
+    list-style : none ;
+    display : flex ;
+    justify-content: space-between;
+    padding: 0 ;
+    font-weight: bold;
+    color : rgb(166, 166, 166) ;
+}
+
+.card-wrapper{
+    display: flex ;
+}
+.card{
+    background-color: rgb(231, 220, 252);
+    border-radius: 16px ;
+    margin : 16px ;
+    padding : 16px 32px ;
+    box-shadow: 0px 3px 11px 1px rgba(0,0,0,0.2);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(58, 34, 109);
+    transition: 0.3s transform ease;
+    position: relative;
+}
+
+.card:hover{
+    transform: translateY(-8px) ;
+}
+
+.card .top-section{
+    padding : 8px ;
+    text-transform: uppercase;
+}
+
+.card .top-section p{
+    margin : 4px 0 ;
+}
+
+.card .price{
+    font-size : 42px ;
+    color : rgb(44, 44, 44);
+}
+
+.card hr{
+    width : 40% ;
+    border: 1px solid rgb(2,0,36) ;
+    border-radius: 2px;
+}
+
+.card button{
+    border : none ;
+    color : white ;
+    background-color: rgb(83, 49, 156);
+    padding: 16px ;
+    border-radius: 10px ;
+    transition: 0.3s transform ease;
+    font-weight: bold;
+}
+
+.card button:hover{
+    cursor: pointer ;
+    transform: scale(1.15) ;
+}
+
+.card .top-section .save-header{
+    color : white ;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(53,10,74,1) 36%, rgba(83,49,156,1) 100%);
+    width : 100% ;
+    position: absolute;
+    top : 0 ;
+    left : 0 ;
+    border-top-left-radius: 16px ;
+    border-top-right-radius: 16px ;
+    font-size: 0.7rem;
+}
+
